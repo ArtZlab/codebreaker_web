@@ -1,0 +1,44 @@
+html, body      { width: 100%; margin:0; padding:0; background-color: #000; color: #fff; }
+body            { font-size: 14px; font-family: Consolas, monaco, monospace; color: #fff; }
+h1, h2, h3      { font-family: Helvetica, Arial, sans-serif; margin-left: 15px;}
+a               { text-decoration: none; color: #fcf; }
+pre             { font-size: 12px; border: 2px dashed #222; border-radius: 4px; font-size: 12px; padding: 10px; }
+ul li           { list-style-type: none; }
+p               { padding: 10px; line-height: 18px; }
+li code,
+p code, td code { background-color: #222;  letter-spacing: 1px; padding: 0 4px; border-radius: 3px; }
+pre             { line-height: 16px; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+button          { margin: 5px; padding: 10px 25px; background-color: #111; border: 1px solid; border-radius: 3px; color: #fcf; cursor: pointer; text-shadow: 1px 1px 1px #888; }
+fieldset        { border: none; }
+header          { position: fixed; height:40px; width: 100%; background-color: #222; top: 0; transition: top 0.2s ease-in-out; width: 100%;}
+header #title   { float: right; font: 20px/30px Georgia, serif; padding: 0 5% 0 0; letter-spacing: 8px;}
+
+.xleft          { float: left; width: 48%; }
+.xright         { float: right; width: 48%; }
+
+article         { padding: 15px 0 15px; border-top: 4px dotted #fcf; }
+article pre     { margin: 10px; }
+article ul      { margin-left: 15px; padding: 2px 5px; }
+article h3      { padding: 10px 0 0 10px;}
+
+.header      {margin-top: 10px;}
+.bit-2       {margin-left: 15px; margin-right: 15px}
+.header      { position: relative; height:40px; width: 100%; background-color: #000; top: 0; transition: top 0.2s ease-in-out; width: 100%;}
+#term-fixed  { position: fixed; margin-top: 35px; width: 100%; max-width: 35%; height: 350px; overflow: visible; }
+#term-border {
+    position: relative;
+    left: 0%; margin: 15px -0%; width: 40%; height: 350px;
+    border-radius: 4px; border: 1px solid #fff; overflow: hidden; resize: vertical;
+    -webkit-box-shadow: 1px 1px 15px 3px rgba(255, 255, 255, 0.6);-moz-box-shadow: 1px 1px 15px 3px rgba(255, 255, 255, 0.6);box-shadow: 1px 1px 15px 3px rgba(255, 255, 255, 0.6);
+    -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out;
+}
+#term-border:hover         { 
+    -webkit-box-shadow: 1px 1px 15px 3px rgba(255, 204, 255, 0.6); -moz-box-shadow: 1px 1px 15px 3px rgba(255, 204, 255, 0.6);box-shadow: 1px 1px 15px 3px rgba(255, 204, 255, 0.6);
+    border: 1px solid #fcf;
+}
+#terminal {
+    position: relative;
+    margin: 0;
+    height: 346px;
+    overflow: auto; 
+}
